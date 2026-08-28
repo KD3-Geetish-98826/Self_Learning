@@ -13,7 +13,7 @@ void swapByValue(int a, int b)
 
 void swapByReference(int *a, int *b)
 {
-    
+
     int temp = *a;
     *a = *b;
     *b = temp;
@@ -25,14 +25,14 @@ int main()
 
     cout << "Before swapByValue: ";
     cout << num1 << " " << num2 << endl;
-    
+
     swapByValue(num1, num2);
     cout << "After swapByValue: ";
     cout << num1 << " " << num2 << endl;
-    
+
     cout << "\nBefore swapByReference: ";
     cout << num1 << " " << num2 << endl;
-    
+
     swapByReference(&num1, &num2);
 
     cout << "After swapByReference: ";
